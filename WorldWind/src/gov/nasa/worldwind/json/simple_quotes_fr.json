@@ -1,9 +1,10 @@
 {
-"the_cat": "The Cat has changed",
-"the_dog": "The dog",
-"key1": "This is a line with \"quotes\" within it.",
-"key2": "This is a line without <i class=quotes><\i> within it.",
-"key3": "This is a line with <i class=\"quotes\"><\i> within it.",
-"the_bird": "The bird",
-"falg": "<i class=\"fa fa-lg fa-edit\"></i>"
+  "_lrmcomment": "LLWWJ_2_18 - CHANGES-ONLY",
+  "falg": "<i class=\"fa fa-lg fa-edit\"></i>",
+  "key1": "This is a line with \"quotes\" within it.",
+  "key2": "Il s&#39;agit d&#39;une ligne sans <i class=\"quotes\"></i>qu&#39;il contient. Envoyer pour prép",
+  "key3": "Il s&#39;agit d&#39;une ligne <i class=\"quotes\"></i>avec elle. Envoyer pour prép",
+  "the_bird": "The bird",
+  "the_cat": "The Cat has changed",
+  "the_dog": "The dog"
 }
