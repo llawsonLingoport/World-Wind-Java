@@ -1,5 +1,5 @@
 {
-  "_lrmcomment": "DemoJson_1_4 - CHANGES-ONLY",
+  "_lrmcomment": "LLWWJ_1_21 - CHANGES-ONLY",
   "Articles": {
     "CancelButton": "Cancel",
     "CartonCreateFailed": "Failed to created article(s)",
@@ -1463,10 +1463,10 @@
     }
   },
   "ProductionIdle": "Idle",
-  "ScanToCreate": "Scan To Create",
+  "ScanToCreate": "扫描，以创建",
   "ScanToCreate": {
     "BarcodeData": "Enter/scan the barcode data. Acceptable formats are: '&lt;Design ID&gt;:&lt;Length&gt;:&lt;Width&gt;:&lt;Height&gt;' or '&lt;Design ID&gt;:&lt;Length&gt;:&lt;Width&gt;:&lt;Height&gt;:&lt;Quantity&gt;'.",
-    "TriggerData": " Select the Trigger Data button to produce the job using the barcode data."
+    "TriggerData": "选择触发器数据按钮以生产使用条码数据的工作。"
   },
   "Search": {
     "BoxFirst": {
