@@ -1,9 +1,10 @@
 {
-"the_cat": "The Cat has changed",
-"the_dog": "The dog",
-"key1": "This is a line with \"quotes\" within it.",
-"key2": "This is a line without <i class=quotes><\i> within it.",
-"key3": "This is a line with <i class=\"quotes\"><\i> within it.",
-"the_bird": "The bird",
-"falg": "<i class=\"fa fa-lg fa-edit\"></i>"
+  "_lrmcomment": "LLWWJ_2_21 - CHANGES-ONLY",
+  "falg": "<i class=\"fa fa-lg fa-edit\"></i>",
+  "key1": "This is a line with \"quotes\" within it.",
+  "key2": "<i class=\"quotes\"></i>这是没有在它的一条线。 准备发送",
+  "key3": "这是一条线，<i class=\"quotes\"></i> 在它之内。 准备发送",
+  "the_bird": "The bird",
+  "the_cat": "The Cat has changed",
+  "the_dog": "The dog"
 }
