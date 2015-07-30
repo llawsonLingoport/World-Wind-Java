@@ -2,8 +2,8 @@
 "the_cat": "The Cat has changed",
 "the_dog": "The dog",
 "key1": "This is a line with \"quotes\" within it.",
-"key2": "This is a line without <i class=quotes><\i> within it.",
-"key3": "This is a line with <i class=\"quotes\"><\i> within it.",
+"key2": "This is a line without <i class=quotes></i> within it. Send for prep",
+"key3": "This is a line with <i class=\"quotes\"></i> within it. Send for prep",
 "the_bird": "The bird",
 "falg": "<i class=\"fa fa-lg fa-edit\"></i>"
 }
