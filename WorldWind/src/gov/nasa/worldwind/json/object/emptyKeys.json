@@ -1,7 +1,7 @@
 {
         "BoxFirst": {
             "CartonPropertyGroup": "Select a specific Carton Property Group",
-            "Classification": "Select a specific Classification",
+            "Classification": "Select a specific Classification Edit",
             "PickZone": "Select a specific Pick Zone from the drop-down",
             "Columns": {
             }
