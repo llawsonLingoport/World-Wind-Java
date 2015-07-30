@@ -1,0 +1,12 @@
+{
+  "_lrmcomment": "DemoJson_3_2 - CHANGES-ONLY",
+  "colors": {
+    "blue": "ES_MX  Blue",
+    "red": "ES_MX  Red"
+  },
+  "the_cat": "ES_MX  The Cat",
+  "vehicles": {
+    "bike": "es_mx3 Bike has changed",
+    "car": "ES_MX  Auto"
+  }
+}

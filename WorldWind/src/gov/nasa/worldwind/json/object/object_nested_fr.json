@@ -1,0 +1,10 @@
+{
+"_lrmcomment":"DemoJson_1_2 - FULL-FILE",
+"the_cat": "ES_MX  The Cat",
+"NEST": {
+"SPLIT": "ES_MX  Split",
+"INTERSECT": "ES_MX  Intersect",
+"ANOTHER_NEST": {
+"SPLIT": "ES_MX  Split"
+}}
+}

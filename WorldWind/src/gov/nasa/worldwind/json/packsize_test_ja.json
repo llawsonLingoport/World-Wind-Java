@@ -1,0 +1,1729 @@
+{
+  "_lrmcomment": "DemoJson_1_3 - CHANGES-ONLY",
+  "Articles": {
+    "CancelButton": "Cancel",
+    "CartonCreateFailed": "Failed to created article(s)",
+    "CartonCreateSuccess": "Successfully created article(s)",
+    "CloseButton": "Close",
+    "CopyArticleHeader": "Copy Article",
+    "CopyButton": "Copy",
+    "CreateArticleHeader": "Create A New Article",
+    "CreateButton": "Create",
+    "CreateFromArticle": "Create Job From Articles",
+    "DeleteArticleCantBeUndone": "This action cannot be reversed.",
+    "DeleteArticleHeader": "Delete Article(s)",
+    "DeleteArticlePrompt": "Are you sure you want to delete the selected article(s)?",
+    "DeleteButton": "Delete",
+    "EditArticleHeader": "Edit Article",
+    "EditButton": "Edit",
+    "Edit": {
+      "ArticleId": "Article ID",
+      "CorrugateQuality": "Corrugate Quality",
+      "Description": "Description",
+      "Design": "Design",
+      "Height": "Height",
+      "Length": "Length",
+      "MachineType": "Machine Type",
+      "Width": "Width"
+    },
+    "Errors": {
+      "NoResult": "The reply from the server didn't contain any articles."
+    },
+    "Headers": {
+      "ArticleId": "Article Id",
+      "CorrugateQuality": "Quality",
+      "Description": "Description",
+      "DesignName": "Design Name",
+      "Height": "H",
+      "Length": "L",
+      "MachineType": "Machine Type",
+      "Quantity": "Quantity",
+      "Width": "W"
+    },
+    "ImportExport": {
+      "ExportAll": "Export All",
+      "ExportWaiting": "Exporting...",
+      "ImportButtonText": "Import Articles",
+      "ImportingArticles": "Article import started. You will be notified when the import is complete.",
+      "UnableToParse": "Could not create an export file from the article data."
+    },
+    "Intro": {
+      "Columns": {
+        "Alias": "Descriptions are listed here.",
+        "Design": "Carton Design Names are listed here.",
+        "FilterButton": "Select the Filter button to display the filter box, then enter the filtering value. The list will be filtered immediately based on your criteria. Select the Filter button again to close the filter box. <u>The list will remain filtered (even if the filter box isn't visible) until the filtering value is removed from the filter box.</u>",
+        "Height": "Carton Heights are listed here.",
+        "Id": "Article IDs are listed here.",
+        "Length": "Carton Lengths are listed here.",
+        "MachineType": "Machine Types are listed here.",
+        "Overview": "Existing Articles are listed here. Select a row to select an Article. Selecting the top check mark will select or de-select all Articles in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+        "Quality": "Carton Corrugate Quality is listed here.",
+        "Width": "Carton Widths are listed here."
+      },
+      "CopyButton": "Select an Article from the list, then select the Copy button to copy its information into the new Article screen.",
+      "DeleteButton": "Select an Article from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditButton": "Select an Article from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Article Management screen.",
+        "Description": "Enter/edit the Description.",
+        "Design": "Select the Design from the drop-down menu.",
+        "Height": "Enter/edit the Height.",
+        "Id": "Enter/edit the Article ID.",
+        "Length": "Enter/edit the Length.",
+        "MachineType": "Select the Machine Type from the drop-down menu.",
+        "Overview": "Create/edit an Article from this screen.",
+        "Quality": "Enter/edit the Corrugate Quality.",
+        "SaveButton": "Select the Save button to save your changes and return to the Article Management screen.",
+        "Width": "Enter/edit the Width."
+      },
+      "NewButton": "Select the New button to create a new Article.",
+      "Overview": "Manage your Articles from this screen.",
+      "ProduceButton": "Select an Article from the list, then select the Produce button to produce it."
+    },
+    "NewButton": "New",
+    "ProduceArticleHeader": "Create Jobs From Selected Articles",
+    "ProduceButton": "Produce",
+    "SaveButton": "Save",
+    "Title": "Article Management",
+    "UI": {
+      "Title": "Article Management"
+    },
+    "UpdateButton": "Update",
+    "Validation": {
+      "CorrugateQualityMustBeNum": "Corrugate Quality Must Be A Whole Number",
+      "DesignRequired": "Design Required",
+      "HeightMustBeNum": "Height Must Be A Number",
+      "HeightRequired": "Height Required",
+      "IdNotEmpty": "Article ID Cannot Be Empty",
+      "IdRequired": "Article ID Required",
+      "LengthMustBeNum": "Length Must Be A Number",
+      "LengthRequired": "Length Required",
+      "WidthMustBeNum": "Width Must Be A Number",
+      "WidthRequired": "Width Required"
+    }
+  },
+  "BoxFirst": "Box First",
+  "BoxLast": "Box Last",
+  "CartonPropertyGroups": {
+    "CancelButton": "Cancel",
+    "DeleteButton": "Delete",
+    "EditButton": "Edit",
+    "Edit": {
+      "CartonPropertyGroupName": "Name"
+    },
+    "Headers": {
+      "Name": "Name"
+    },
+    "Intro": {
+      "Columns": {
+        "Alias": "Carton Property Group Names are listed here.",
+        "Overview": "Existing Carton Property Groups are listed here. Select a row to select a Carton Property Group. Selecting the top check mark will select or de-select all Carton Property Groups in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order."
+      },
+      "DeleteButton": "Select a Carton Property Group from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditButton": "Select a Carton Property Group from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Carton Property Group Management screen.",
+        "Name": "Enter/edit the Carton Property Group Name.",
+        "Overview": "Create/edit a Carton Property Group from this screen.",
+        "SaveButton": "Select the Save button to save your changes and return to the Carton Property Group Management screen."
+      },
+      "NewButton": "Select the New button to create a new Carton Property Group.",
+      "Overview": "Manage your Carton Property Groups from this screen."
+    },
+    "NewButton": "New",
+    "SaveButton": "Save",
+    "Title": "Carton Property Groups",
+    "Validation": {
+      "NameRequired": "Carton Property Group Name Cannot Be Empty"
+    }
+  },
+  "Cartons": {
+    "UI": {
+      "Designs": {
+        "FifthCrease": "Fifth Crease",
+        "FirstCrease": "First Crease",
+        "FourthCrease": "Fourth Crease",
+        "SecondCrease": "Second Crease",
+        "ThirdCrease": "Third Crease"
+      },
+      "NamePlural": "Cartons",
+      "NameSingular": "Carton"
+    }
+  },
+  "Classifications": {
+    "DeleteButton": "Delete",
+    "EditButton": "Edit",
+    "Edit": {
+      "CancelButton": "Cancel",
+      "Name": "Classification Name",
+      "Number": "Number",
+      "SaveButton": "Save"
+    },
+    "Header": "Classifications",
+    "Headers": {
+      "Name": "Classification Name",
+      "Number": "Number"
+    },
+    "Intro": {
+      "Columns": {
+        "Name": "Classification Names are listed here.",
+        "Number": "Numbers are listed here.",
+        "Overview": "Existing Classifications are listed here. Select a row to select a Classification. Selecting the top check mark will select or de-select all Classifications in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order."
+      },
+      "DeleteButton": "Select a Classification from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditButton": "Select a Classification from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Classification Management screen.",
+        "Name": "Enter/edit the Classification Name here.",
+        "Number": "Select/enter the Number here.",
+        "Overview": "Create/edit a Classification from this screen.",
+        "SaveButton": "Select the Save button to save your changes and return to the Classification Management screen."
+      },
+      "NewButton": "Select the New button to create a new Classification.",
+      "Overview": "Manage your Classifications from this screen."
+    },
+    "NewButton": "New",
+    "Title": "Classification Management",
+    "Validation": {
+      "NameRequired": "Classification Name Required"
+    }
+  },
+  "Common": {
+    "UI": {
+      "Alias": "Alias Jones fr_ca pk1",
+      "Cancel": "Cancel",
+      "Delete": "Delete",
+      "Description": "Description",
+      "Design": "Design",
+      "Edit": "Edit",
+      "Height": "Height",
+      "Items": "Items",
+      "Length": "Length",
+      "New": "New",
+      "Quality": "Quality",
+      "Quantity": "Quantity",
+      "Restrictions": "Restrictions",
+      "Save": "Save",
+      "SelectOne": "Select One",
+      "Template": "Template",
+      "Thickness": "Thickness",
+      "Type": "Type",
+      "Variables": "Variables",
+      "Width": "Width"
+    },
+    "Validation": {
+      "AliasRequired": "Alias Required",
+      "DesignRequired": "Design Required",
+      "HeightMustBeNumber": "Height Must Be A Number",
+      "LengthMustBeNumber": "Length Must Be A Number",
+      "TemplateRequired": "Template Required",
+      "ThicknessMustBeNumber": "Thickness Must Be A Number",
+      "WidthMustBeNumber": "Width Must Be A Number"
+    }
+  },
+  "Corrugates": {
+    "Change": {
+      "AtLeastOne": "You must have at least one corrugate loaded.",
+      "CorrugateNotInProductionGroup": "Corrugate not loaded in Production Group. Please have an Administrator add Corrugate to the Production Group.",
+      "Errors": {
+        "CorrugateTooWideForMachine": "The selected Corrugates for Machine: '{0}' are too wide to be loaded on the Machine",
+        "IdenticalCorrugate": "Track {1} has the same Corrugate on Machine: '{0}'",
+        "OverlappingRubberrollerWithCorrugateLoaded": "Track {1} is Overlapping the Rubber Roller of another Track, Please unload the affected Track(s) on Machine: '{0}'",
+        "OverlappingTracks": "Track {1} are Overlapping on Machine: '{0}'",
+        "TrackOutsideOfMachine": "Track {1} is outside of the Machine Boundaries of Machine: '{0}'",
+        "UnableToPauseMachine": "Unable to Pause Machine {0}"
+      },
+      "IdenticalTracks": "Machine {0} has the same corrugate selected on two tracks.  Corrugates must be different.",
+      "Loading": "Loading...",
+      "NoCorrugatesLoadedOnMachine": "No corrugate loaded for this machine, please update corrugate selection.",
+      "NoLoadedCorrugates": "You must have at least one corrugate loaded",
+      "NoMachines": "No machines with tracks exist in Machine Group '{0}'",
+      "NotLoaded": "Not Loaded",
+      "PauseFailedNoResponse": "Pause failed, please try again.",
+      "SaveFailedNoResponse": "Save failed, please try again.",
+      "SuccessfullLoad": "Corrugates loaded Successfully"
+    },
+    "DeleteButton": "Delete",
+    "EditButton": "Edit",
+    "Edit": {
+      "CancelButton": "Cancel",
+      "Name": "Name",
+      "Quality": "Quality",
+      "SaveButton": "Save",
+      "Thickness": "Thickness",
+      "Width": "Width"
+    },
+    "Header": "Corrugates",
+    "Headers": {
+      "Name": "Name",
+      "Quality": "Quality",
+      "Thickness": "Thickness",
+      "Width": "Width"
+    },
+    "Intro": {
+      "Change": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Production screen.",
+        "Machine": "Machine Names are listed here.",
+        "Machines": "Configured Machines are listed here.",
+        "Overview": "Manage the Corrugates for each Machine in the Machine Group here.",
+        "PausePlay": "Select this button to pause the Machine. Select it again to return the Machine to play mode.",
+        "SaveButton": "Select the Save button to save your changes and return to the Machine Production screen.",
+        "Track": "Using the drop-down menu, select the appropriate Corrugate for each track."
+      },
+      "Columns": {
+        "Name": "Corrugate Names are listed here.",
+        "Overview": "Existing Corrugates are listed here. Select a row to select a Corrugate. Selecting the top check mark will select or de-select all Corrugates in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+        "Quality": "Quality is listed here.",
+        "Thickness": "Thicknesses are listed here.",
+        "Width": "Widths are listed here."
+      },
+      "DeleteButton": "Select a Corrugate from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditButton": "Select a Corrugate from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Corrugate Management screen.",
+        "Name": "Enter/edit the Corrugate Name.",
+        "Overview": "Create/edit a Corrugate from this screen.",
+        "Quality": "Select/enter the Quality.",
+        "SaveButton": "Select the Save button to save your changes and return to the Corrugate Management screen.",
+        "Thickness": "Enter/edit the Thickness.",
+        "Width": "Enter/edit the Width."
+      },
+      "NewButton": "Select the New button to create a new Corrugate.",
+      "Overview": "Manage your Corrugates from this screen."
+    },
+    "NewButton": "New",
+    "UI": {
+      "Quality": "Corrugate Quality",
+      "Thickness": "Corrugate Thickness",
+      "Width": "Corrugate Width"
+    },
+    "Validation": {
+      "NameRequired": "Corrugate Name Required",
+      "QualityRequired": "Quality Required",
+      "ThicknessMustBeNum": "Thickness Must Be A Number",
+      "ThicknessMustBeNumber": "Corrugate Thickness Must Be A Number",
+      "ThicknessRequired": "Corrugate Thickness Required",
+      "WidthMustBeNum": "Width Must Be A Number",
+      "WidthMustBeNumber": "Corrugate Width Must Be A Number",
+      "WidthRequired": "Corrugate Width Required"
+    }
+  },
+  "CustomJob": {
+    "CancelButton": "Cancel",
+    "CorrugateQuality": "Corrugate Quality",
+    "CorrugateQualityMustBeNum": "Corrugate Quality Must Be A Whole Number",
+    "CustomerUniqueId": "Order Number",
+    "Design": "Design",
+    "DesignRequired": "Design Required",
+    "Height": "Height",
+    "HeightMustBeNum": "Height Must Be A Number",
+    "HeightRequired": "Height Required",
+    "Length": "Length",
+    "LengthMustBeNum": "Length Must Be A Number",
+    "LengthRequired": "Length Required",
+    "Preview": "Preview:",
+    "ProduceButton": "Produce",
+    "Quantity": "Quantity",
+    "Title": "Create Custom Job For Machine Group '{{ currentMachineAlias }}'",
+    "Width": "Width",
+    "WidthMustBeNum": "Width Must Be A Number",
+    "WidthRequired": "Width Required"
+  },
+  "Dashboard": {
+    "AddNewWidget": "Add new widget",
+    "ChangeWidgetLocation": "change widget location",
+    "CloseWidget": "remove widget",
+    "CollapseWidget": "collapse widget",
+    "DisableEditMode": "Disable edit mode",
+    "EditDashboard": "Edit dashboard attributes",
+    "EditDashboardStructure": "Layout",
+    "EditDashboardTitle": "Title",
+    "EditWidgetConfiguration": "edit widget configuration",
+    "EnableEditMode": "Enable edit mode",
+    "EnterTitle": "Enter title",
+    "ExpandWidget": "expand widget",
+    "FullScreenWidget": "fullscreen widget",
+    "Intro": {
+      "Walkthroughs": {
+        "GeneralDashboardWalkthrough": {
+          "AddWidget": "Select this icon to add a report widget to the dashboard.",
+          "EditDashboard": "Select this icon to enable Edit mode. In Edit mode, you can add and remove widgets, change their location on the dashboard, and modify individual widget settings.",
+          "EditDashboardStructure": "Select this icon to edit the dashboard structure. You can change the dashboard title, as well as the way your report widgets are laid out.",
+          "EditDashboardToSave": "When you've finished editing your dashboard, select this icon to save your changes and exit Edit mode.",
+          "Overview": "This is the Admin dashboard, where you can setup report widgets to show system statistics. Choose from multiple general, daily, and weekly report widgets for a customized dashboard display. Beyond these standard widgets, Packsize offers additional reporting capabilities. See your Packsize representative for more details!",
+          "WidgetDock": "This is the area where your report widgets are displayed."
+        }
+      }
+    },
+    "NewTitle": "New Title",
+    "ReloadWidgetContent": "reload widget content",
+    "Reports": {
+      "DailyWidgetsTab": "Daily",
+      "GeneralWidgetsTab": "General",
+      "Title": "Reports",
+      "WeeklyWidgetsTab": "Weekly"
+    },
+    "Title": "Admin Dashboard",
+    "WelcomeMessage": "Welcome to the Administrator Dashboard, click <i class=\"fa fa-lg fa-edit\"></i> on the right hand side to get started.",
+    "Widgets": {
+      "Daily": {
+        "AverageProductionTimeByDay": {
+          "Description": "Displays the average production time for items that have been created by PackNet.Server By Day",
+          "FooterText": "Average Production Time By Day",
+          "Title": "Average Production Time By Day"
+        },
+        "AverageWastePercentageByCorrugateByDay": {
+          "Description": "Displays the average waste percentage by corrugate for items that have been created by PackNet.Server By Day",
+          "Title": "Average Waste Percentage By Corrugate By Day"
+        },
+        "AverageWastePercentageByDay": {
+          "Description": "Displays the average waste percentage for items that have been created by PackNet.Server by Day",
+          "FooterText": "Average Waste by Day",
+          "Title": "Average Waste Percentage By Day"
+        },
+        "AverageWastePercentageByMachineByDay": {
+          "Description": "Displays the average waste percentage by machine for items that have been created by PackNet.Server By Day",
+          "Title": "Average Waste Percentage By Machine By Day"
+        },
+        "CartonCountByCorrugateByDay": {
+          "Description": "Displays the number of cartons created for each corrugate By Day",
+          "Title": "Carton Count By Corrugate By Day"
+        },
+        "CartonCountByMachineByDay": {
+          "Description": "Displays the number of cartons created for each machine By Day",
+          "Title": "Carton Count By Machine By Day"
+        },
+        "CartonCountByUserByDay": {
+          "Description": "Displays the number of cartons created for each user By Day",
+          "Title": "Carton Count By User By Day"
+        },
+        "CorrugateConsumptionByDay": {
+          "Description": "Displays the corrugate consumption by corrugate for items that have been created by PackNet.Server By Day",
+          "Title": "Corrugate Consumption By Day"
+        },
+        "ProducibleItemsCreatedByDay": {
+          "Description": "Displays the number of items that have been created by PackNet.Server Daily",
+          "FooterText": "Total items created today",
+          "Title": "Producible Items Created By Day"
+        },
+        "ProducibleItemsFailedByDay": {
+          "Description": "Displays the number of items that have failed today",
+          "FooterText": "Total items failed Today",
+          "Title": "Producible Items Failed By Day"
+        },
+        "ProducibleItemsImportedByDay": {
+          "Description": "Displays metrics surrounding producible items imported to PackNet.Server Daily",
+          "FooterText": "Total items imported Today",
+          "Title": "Producible Items Imported By Day"
+        },
+        "ProducibleItemsRotatedByDay": {
+          "Description": "Displays the number of items that have been rotated when created by PackNet.Server By Day",
+          "FooterText": "Total items rotated by Day",
+          "Title": "Producible Items Rotated By Day"
+        }
+      },
+      "General": {
+        "AverageProductionTime": {
+          "Description": "Displays the average production time for items that have been created by PackNet.Server",
+          "FooterText": "Average Production Time",
+          "Title": "Average Production Time"
+        },
+        "AverageWastePercentageByCorrugate": {
+          "Description": "Displays the average waste percentage by corrugate for items that have been created by PackNet.Server",
+          "Title": "Average Waste Percentage By Corrugate"
+        },
+        "AverageWastePercentageByMachine": {
+          "Description": "Displays the average waste percentage by machine for items that have been created by PackNet.Server",
+          "Title": "Average Waste Percentage By Machine"
+        },
+        "AverageWastePercentage": {
+          "Description": "Displays the average waste percentage for items that have been created by PackNet.Server",
+          "FooterText": "Average Waste",
+          "Title": "Average Waste Percentage"
+        },
+        "CartonCountByCPG": {
+          "ActualMix": "Actual Mix",
+          "Description": "Displays the number of cartons created per CPG in a production group",
+          "Metric": "Metric:",
+          "Metrics": {
+            "CartonCountByCPG": "All",
+            "CartonCountByCPGByDay": "Today",
+            "CartonCountByCPGByHour": "This Hour",
+            "CartonCountByCPGByMonth": "This month",
+            "CartonCountByCPGBySlidingHour": "Past Hour",
+            "CartonCountByCPGByWeek": "This Week"
+          },
+          "ProductionGroup": "Production group:",
+          "ShowHideDetails": "Show / Hide details",
+          "TargetMix": "Target Mix",
+          "Title": "Carton Count By Carton Property Group"
+        },
+        "CartonCountByCorrugate": {
+          "Description": "Displays the number of cartons created for each corrugate",
+          "Title": "Carton Count By Corrugate"
+        },
+        "CartonCountByMachine": {
+          "Description": "Displays the number of cartons created for each machine",
+          "Title": "Carton Count By Machine"
+        },
+        "CartonCountByUser": {
+          "Description": "Displays the number of cartons created for each user",
+          "Title": "Carton Count By User"
+        },
+        "CartonPropertyGroups": {
+          "Columns": {
+            "Normal": "Normal",
+            "Stop": "Stop",
+            "Surge": "Surge"
+          },
+          "Description": "Displays the Carton Property Groups managed by PackNet.Server",
+          "Headers": {
+            "Alias": "Name",
+            "Expedite": "Expedite",
+            "Last": "Last",
+            "Normal": "Normal",
+            "NumberOfRequests": "#",
+            "Status": "Status",
+            "Stopped": "Stopped"
+          },
+          "Title": "Carton Property Groups"
+        },
+        "Classifications": {
+          "Columns": {
+            "Expedite": "Expedite",
+            "Last": "Last",
+            "Normal": "Normal",
+            "Stop": "Stop"
+          },
+          "Description": "Displays the Classifications managed by PackNet.Server",
+          "Headers": {
+            "Alias": "Name",
+            "NumberOfRequests": "#",
+            "PriorityLabel": "Priority",
+            "Status": "Status"
+          },
+          "Title": "Classifications"
+        },
+        "CorrugateConsumption": {
+          "Description": "Displays the corrugate consumption by corrugate for items that have been created by PackNet.Server",
+          "Title": "Corrugate Consumption"
+        },
+        "CorrugateEfficiencyEdit": {
+          "AddLine": "Add Line",
+          "DataType": "Data Type:",
+          "DataTypes": {
+            "ProductionTime": "Production Time",
+            "WasteByPercentage": "Waste by Percentage",
+            "WasteValue": "Waste by Value"
+          },
+          "RemoveLine": "Remove Line",
+          "Save": "Save",
+          "StartDate": "Start Date:"
+        },
+        "CorrugateEfficiency": {
+          "Description": "Allows Corrugate Efficiency Analysis   ",
+          "Title": "Corrugate Efficiency"
+        },
+        "CorrugateStatus": {
+          "CorrugateName": "Corrugate",
+          "CorrugateStatus": "Current State",
+          "Description": "Displays the status of corrugates managed by PackNet.Server",
+          "Statuses": {
+            "Loaded": "Loaded",
+            "NotAssigned": "Not Assigned",
+            "NotLoaded": "Not Loaded"
+          },
+          "Title": "Corrugate Status"
+        },
+        "Corrugates": {
+          "Description": "Displays the Corrugates managed by PackNet.Server",
+          "Headers": {
+            "Machine": "Machine",
+            "Name": "Name",
+            "Width": "Width"
+          },
+          "Title": "Corrugates"
+        },
+        "DeleteBoxLastCartons": {
+          "Begindate": "Begin date:",
+          "DeleteCartons": "Delete Cartons",
+          "Description": "Delete all cartons that fall within a date range",
+          "Enddate": "End date:",
+          "Title": "Delete Box Last Cartons"
+        },
+        "GraphicEditDialogMetric": {
+          "ApplyDefaults": "Apply Defaults",
+          "FillColor": "Fill Color:",
+          "Height": "Height:",
+          "HighlightFillColor": "Highlight Fill Color:",
+          "HighlightStrokeColor": "Highlight Stroke Color:",
+          "StrokeColor": "Stroke Color:"
+        },
+        "MachineGroups": {
+          "Description": "Displays the machine groups managed by PackNet.Server",
+          "Headers": {
+            "Alias": "Alias",
+            "AssignedOperator": "Operator",
+            "CurrentProductionStatus": "Production Status",
+            "CurrentStatus": "Current Status",
+            "ProductionGroup": "Production Group",
+            "ProductionMode": "Production Mode"
+          },
+          "Title": "Machine Groups"
+        },
+        "MachineStatus": {
+          "CurrentStatus": "Current State",
+          "Description": "Displays the status of machines managed by PackNet.Server",
+          "Machine": "Machine",
+          "MachineType": "Machine Type",
+          "Statuses": {
+            "Error": "Error",
+            "Initializing": "Initializing",
+            "Offline": "Offline",
+            "Online": "Online",
+            "Paused": "Paused"
+          },
+          "Title": "Machine Status"
+        },
+        "Orders": {
+          "Description": "Displays a list of Orders in the system",
+          "Title": "Orders"
+        },
+        "PickZones": {
+          "Columns": {
+            "Normal": "Normal",
+            "Stop": "Stop"
+          },
+          "Description": "Displays the Pick Zones managed by PackNet.Server",
+          "Headers": {
+            "Alias": "Name",
+            "Description": "Description",
+            "NumberOfRequests": "#",
+            "Status": "Status"
+          },
+          "Title": "Pick Zones"
+        },
+        "ProducibleItemsCreated": {
+          "Description": "Displays the number of items that have been created by PackNet.Server",
+          "FooterText": "Total items created",
+          "Title": "Producible Items Created"
+        },
+        "ProducibleItemsFailed": {
+          "Description": "Displays the number of items that have failed",
+          "FooterText": "Total items failed",
+          "Title": "Producible Items Failed"
+        },
+        "ProducibleItemsImported": {
+          "Description": "Displays metrics surrounding producible items imported to PackNet.Server",
+          "FooterText": "Total items imported",
+          "Title": "Producible Items Imported"
+        },
+        "ProducibleItemsRotated": {
+          "Description": "Displays the number of items that have been rotated when created by PackNet.Server",
+          "FooterText": "Total items rotated",
+          "Title": "Producible Items Rotated"
+        },
+        "SearchUserNotifications": {
+          "DateFrom": "Date From",
+          "DateTo": "Date To",
+          "Description": "Search for user notifications by creation date, notification type and severity.",
+          "ExpandableRow": {
+            "DismissedBy": "Dismissed By:",
+            "NoUsersHaveDismissedThisNotification": "No users have dismissed this notification:",
+            "machineGroups": "Machine Groups:"
+          },
+          "Headers": {
+            "CreatedDate": "Created Date",
+            "Message": "Message",
+            "Severity": "Severity",
+            "Type": "Type"
+          },
+          "NotificationSeverity": "Notification Severity",
+          "NotificationSeverityAll": "All",
+          "NotificationSeverityError": "Error",
+          "NotificationSeverityInfo": "Info",
+          "NotificationSeveritySuccess": "Success",
+          "NotificationSeverityWarning": "Warning",
+          "NotificationType": "Notification Type",
+          "NotificationTypeAll": "All",
+          "NotificationTypeMachineGroup": "Machine Group",
+          "NotificationTypeProductionGroup": "Production Group",
+          "NotificationTypeSystem": "System",
+          "Search": "Search",
+          "Title": "Search User Notifications"
+        },
+        "SupportIncidents": {
+          "CopyToClipboard": "Copy to Clipboard:",
+          "Description": "Displays any created support incidents",
+          "LogMessage": "Log Message:",
+          "Title": "Support Incidents"
+        },
+        "Top20InvalidRequests": {
+          "Description": "Displays the Top 20 Invalid Requests managed by PackNet.Server",
+          "Headers": {
+            "SerialNumber": "Serial #",
+            "ValidationMessage": "Reason"
+          },
+          "Title": "Top 20 Invalid Requests"
+        }
+      },
+      "Weekly": {
+        "AverageProductionTimeByWeek": {
+          "Description": "Displays the average production time for items that have been created by PackNet.Server By Week",
+          "FooterText": "Average Production Time By Week",
+          "Title": "Average Production Time By Week"
+        },
+        "AverageWastePercentageByCorrugateByWeek": {
+          "Description": "Displays the average waste percentage by corrugate for items that have been created by PackNet.Server By Week",
+          "Title": "Average Waste Percentage By Corrugate By Week"
+        },
+        "AverageWastePercentageByMachineByWeek": {
+          "Description": "Displays the average waste percentage by machine for items that have been created by PackNet.Server By Week",
+          "Title": "Average Waste Percentage By Machine By Week"
+        },
+        "AverageWastePercentageByWeek": {
+          "Description": "Displays the average waste percentage for items that have been created by PackNet.Server by Week",
+          "FooterText": "Average Waste by Week",
+          "Title": "Average Waste Percentage By Week"
+        },
+        "CartonCountByCorrugateByWeek": {
+          "Description": "Displays the number of cartons created for each corrugate By Week",
+          "Title": "Carton Count By Corrugate By Week"
+        },
+        "CartonCountByMachineByWeek": {
+          "Description": "Displays the number of cartons created for each machine By Week",
+          "Title": "Carton Count By Machine By Week"
+        },
+        "CartonCountByUserByWeek": {
+          "Description": "Displays the number of cartons created for each user By Week",
+          "Title": "Carton Count By User By Week"
+        },
+        "CorrugateConsumptionByWeek": {
+          "Description": "Displays the corrugate consumption by corrugate for items that have been created by PackNet.Server By Week",
+          "Title": "Corrugate Consumption By Week"
+        },
+        "ProducibleItemsCreatedByWeek": {
+          "Description": "Displays the number of items that have been created by PackNet.Server by week",
+          "FooterText": "Total items created this week",
+          "Title": "Producible Items Created By Week"
+        },
+        "ProducibleItemsFailedByWeek": {
+          "Description": "Displays the number of items that have failed this week",
+          "FooterText": "Total items failed this Week",
+          "Title": "Producible Items Failed By Week"
+        },
+        "ProducibleItemsImportedByWeek": {
+          "Description": "Displays metrics surrounding producible items imported to PackNet.Server Weekly",
+          "FooterText": "Total items imported this Week",
+          "Title": "Producible Items Imported By Week"
+        },
+        "ProducibleItemsRotatedByWeek": {
+          "Description": "Displays the number of items that have been rotated when created by PackNet.Server By Week",
+          "FooterText": "Total items rotated by Week",
+          "Title": "Producible Items Rotated By Week"
+        }
+      }
+    }
+  },
+  "ExternalCustomerSystem": "External System",
+  "FailedToStart": "Failed To Start",
+  "HeadOpen": "Head Open",
+  "IODevices": {
+    "Accessories": "Accessories",
+    "Conveyor": "Conveyor",
+    "ErrorMessages": {
+      "CreateConveyorFailedAliasExists": "Cannot Create a Conveyor with the same Alias as another within this Machine.",
+      "CreateConveyorFailedIdExists": "Cannot Create a Conveyor with an Id that's already persisted.",
+      "CreateConveyorFailedPickzoneAssigned": "Unable to Create Conveyor with selected Pick Zones. One of the Pick Zones is assigned to another Conveyor in this Machine or Machine Group",
+      "DeleteConveyorFailedDoesNotExist": "Cannot Delete a conveyor with an Id that isn't persisted.",
+      "UpdateConveyorFailedDoesNotExist": "Cannot Update a Conveyor with an Id that isn't persisted.",
+      "UpdateConveyorFailedPickzoneAssigned": "Unable to Update Conveyor with selected Pick Zones. One of the Pick Zones is assigned to another Conveyor in this Machine or Machine Group"
+    },
+    "FootPedal": "Foot Pedal",
+    "Headers": {
+      "Description": "Description",
+      "Module": "Module",
+      "Name": "Name",
+      "Port": "Port",
+      "Type": "Type"
+    },
+    "NewButton": "New"
+  },
+  "InvalidPrintData": "Invalid Print Data",
+  "Jobs": {
+    "Console": {
+      "Completed": {
+        "Overview": "Completed jobs are listed here."
+      },
+      "Sent": {
+        "Overview": "Jobs that have been sent to be produced are listed here."
+      }
+    },
+    "CreateFromArticle": {
+      "Articles": "Configured Articles are listed here.",
+      "CancelButton": "Select the Cancel button to cancel <u>without creating any jobs</u> and return to the Machine Production screen.",
+      "CreateButton": "Select the Create button to create a job based on an Article.",
+      "FilterButton": "Select the Filter button to display the filter box, then enter the filtering value. The list will be filtered immediately based on your criteria. Select the Filter button again to close the filter box. <u>The list will remain filtered (even if the filter box isn't visible) until the filtering value is removed from the filter box.</u>",
+      "Overview": "Create jobs based on Articles here.",
+      "Quantity": "Select/edit the quantity for this Article-based job."
+    },
+    "Custom": {
+      "CancelButton": "Select the Cancel button to cancel <u>without creating any custom jobs</u> and return to the Machine Production screen.",
+      "CartonHeight": "Enter the carton Height.",
+      "CartonLength": "Enter the carton Length.",
+      "CartonWidth": "Enter the carton Width.",
+      "Design": "Select the carton Design from the drop-down menu.",
+      "Overview": "Create a custom job for the current Machine Group here.",
+      "Preview": "Preview of carton design and layout",
+      "ProduceButton": "Select the Produce button to produce this custom job.",
+      "Quality": "Enter the Corrugate Quality here.",
+      "Quantity": "Select/enter the Quantity for this custom job."
+    }
+  },
+  "Kits": {
+    "UI": {
+      "NamePlural": "Kits",
+      "NameSingular": "Kit"
+    }
+  },
+  "LabelInQueue": "Label In Queue",
+  "LabelWaitingToBePeeledOff": "Waiting To Be Peeled Off",
+  "Labels": {
+    "UI": {
+      "NamePlural": "Labels",
+      "NameSingular": "Label",
+      "Templates": {
+        "CustomerUniqueId": "Customer Unique Id",
+        "ShipToName": "Ship To Name"
+      }
+    }
+  },
+  "Localization": {
+    "Languages": {
+      "da_DK": "Dansk",
+      "de_DE": "Deutsch",
+      "en_US": "English",
+      "es_ES": "Español",
+      "fr_FR": "Français",
+      "hu_HU": "Magyar",
+      "nl_NL": "Nederlands",
+      "pl_PL": "Polski",
+      "sv_SE": "Svenska"
+    }
+  },
+  "MachineCalibrating": "Calibrating",
+  "MachineChangingCorrugate": "Changing Corrugate",
+  "MachineControl": {
+    "Intro": {
+      "CleanCut": "Select the Clean Cut button to have the Machine perform a clean cut on the corrugate.",
+      "Overview": "Manage your Packsize track-based Machines from this screen.",
+      "PausePlay": "Select this button to pause the Machine. Select it again to return to play mode.",
+      "RollBackward": "Select the Roll Backward button to have the Machine roll the corrugate backward.",
+      "RollForward": "Select the Roll Forward button to have the Machine roll the corrugate forward."
+    }
+  },
+  "MachineErrors": {
+    "HeadOpen": {
+      "AdditionalInfo": "",
+      "DisplayText": "Printer Head Is Open",
+      "StepsToResolve": "Close the printer head."
+    },
+    "MachineAlreadyConnectedError": {
+      "AdditionalInfo": "",
+      "DisplayText": "Machine Already Connected Error",
+      "StepsToResolve": "This Machine appears to already be connected. This error may occur if you have another instance of PackNet.Server running. Please close any other instances of PackNet.Server before connecting to a Machine from this instance of the software."
+    },
+    "MachineEmergencyStop": {
+      "AdditionalInfo": "",
+      "DisplayText": "Emergency Stop",
+      "StepsToResolve": "Reset all Emergency Stop switches, then press Play."
+    },
+    "MachineError": {
+      "AdditionalInfo": "",
+      "DisplayText": "Machine Error",
+      "StepsToResolve": ""
+    },
+    "MovablePressureRoller": {
+      "AdditionalInfo": "",
+      "DisplayText": "Movable Pressure Roller",
+      "StepsToResolve": "Adjust the movable Pressure Roller to the correct location, depending on whether this is a single-track or multi-track Machine."
+    },
+    "OutOfLabels": {
+      "AdditionalInfo": "",
+      "DisplayText": "Printer is Out Of Labels",
+      "StepsToResolve": "Refill the printer with new labels."
+    },
+    "OutOfRibbon": {
+      "AdditionalInfo": "",
+      "DisplayText": "Printer Is Out Of Ribbon",
+      "StepsToResolve": "Refill the printer ribbon."
+    },
+    "PackagingMachineOutOfCorrugate": {
+      "AdditionalInfo": "On Track {0}",
+      "DisplayText": "Out Of Corrugate",
+      "StepsToResolve": "Load new Corrugate."
+    },
+    "PacksizePackagingMachineErrorAirPressureLow": {
+      "AdditionalInfo": "",
+      "DisplayText": "Air Pressure Low",
+      "StepsToResolve": "Verify the integrity of the pneumatics on the Machine, then clear the error."
+    },
+    "PacksizePackagingMachineErrorCorrugateMismatch": {
+      "AdditionalInfo": "Expected Width: {0}, Actual Width: {1}",
+      "DisplayText": "Corrugate Mismatch",
+      "StepsToResolve": "Load the correct Corrugate."
+    },
+    "PacksizePackagingMachineErrorCrossHeadPositionOutsideOfTolerance": {
+      "AdditionalInfo": "",
+      "DisplayText": "Crosshead Position Outside Of Tolerance",
+      "StepsToResolve": ""
+    },
+    "PacksizePackagingMachineErrorInstructionList": {
+      "AdditionalInfo": "",
+      "DisplayText": "Instruction List Error",
+      "StepsToResolve": ""
+    },
+    "PacksizePackagingMachineErrorLightBarrierBroken": {
+      "AdditionalInfo": "On the {0} of the Machine",
+      "DisplayText": "Light Barrier Broken",
+      "ErrorCodes": {
+        "1": "Front",
+        "2": "Back"
+      },
+      "StepsToResolve": "Reset the corresponding Light Barrier."
+    },
+    "PacksizePackagingMachineErrorLongHeadPositionOutsideOfTolerance": {
+      "AdditionalInfo": "",
+      "DisplayText": "Longhead Position Outside Of Tolerance",
+      "StepsToResolve": ""
+    },
+    "PacksizePackagingMachineErrorLongHeadPosition": {
+      "AdditionalInfo": "",
+      "DisplayText": "Longhead Positioning Error",
+      "StepsToResolve": ""
+    },
+    "PacksizePackagingMachineErrorLongHeadQuantity": {
+      "AdditionalInfo": "Expected {0} Longheads, Found {1}",
+      "DisplayText": "Longhead Quantity Mismatch",
+      "StepsToResolve": "Correct the Longhead quantity mismatch by either adding or removing Longheads from the machine or by changing the Physical Machine Settings file."
+    },
+    "PacksizePackagingMachineErrorPaperJam": {
+      "AdditionalInfo": "",
+      "DisplayText": "Paper Jam",
+      "StepsToResolve": "Clean the jammed Corrugate from the Feed Roller."
+    },
+    "PacksizePackagingMachineErrorPositionLatchError": {
+      "AdditionalInfo": "",
+      "DisplayText": "Position Latch Error",
+      "StepsToResolve": ""
+    },
+    "PacksizePackagingMachineErrorReferenceQuantityMissmatch": {
+      "AdditionalInfo": "Expected {0} reference points, found {1} reference points",
+      "DisplayText": "Reference Quantity Mismatch",
+      "StepsToResolve": "Verify the reference quantity on this Machine and in the Physical Machine Settings file is the same."
+    },
+    "PacksizePackagingMachineErrorRollAxis": {
+      "AdditionalInfo": "With Arguments: {0}, {1}, {2}, {3}, {4}",
+      "DisplayText": "Feed Roller Error",
+      "ErrorCodes": {
+        "29215": "Discrete Movement Not Possible Due To Drive Errors",
+        "4007": "Engine Stall",
+        "4008": "Positive Limit Switch Reached",
+        "4009": "Negative Limit Switch Reached",
+        "5003": "Positive Software Limit Reached",
+        "5004": "Negative Software Limit Reached",
+        "5026": "Speed Exceeds Limit",
+        "5027": "Acceleration Exceeds Limit",
+        "7215": "At Least One Phase Of The Power Line Failed"
+      },
+      "StepsToResolve": "Verify Physical Machine settings."
+    },
+    "PacksizePackagingMachineErrorToolAxis": {
+      "AdditionalInfo": "With Arguments: {0}, {1}, {2}, {3}, {4}",
+      "DisplayText": "Tool Axis Error",
+      "ErrorCodes": {
+        "29215": "Discrete Movement Not Possible Due To Drive Errors",
+        "4007": "Engine Stall",
+        "4008": "Positive Limit Switch Reached",
+        "4009": "Negative Limit Switch Reached",
+        "5003": "Positive Software Limit Reached",
+        "5004": "Negative Software Limit Reached",
+        "5026": "Speed Exceeds Limit",
+        "5027": "Acceleration Exceeds Limit",
+        "7215": "At Least One Phase Of The Power Line Failed"
+      },
+      "StepsToResolve": "Verify Physical Machine settings."
+    },
+    "PacksizePackagingMachineErrorTrackOffset": {
+      "AdditionalInfo": "",
+      "DisplayText": "Track Offset Error",
+      "StepsToResolve": ""
+    },
+    "PacksizePackagingMachineErrorTrackQuantity": {
+      "AdditionalInfo": "Expected {1} Tracks, Found {0} Tracks. Expected {2} Sensor Pulses, Found {3} Sensor Pulses.",
+      "DisplayText": "Track Quantity Error",
+      "StepsToResolve": "Verify the Track Sensor is working correctly or alter the number of tracks listed for this Machine."
+    },
+    "UnexpectedLabelInPrinterQueue": {
+      "AdditionalInfo": "",
+      "DisplayText": "Unexpected Label In Printer Queue",
+      "StepsToResolve": "Clear the printer queue."
+    },
+    "UnexpectedLabelOnPrinter": {
+      "AdditionalInfo": "",
+      "DisplayText": "Unexpected Label On Printer",
+      "StepsToResolve": "Remove the label from the printer."
+    },
+    "ZebraErrorUnableToPause": {
+      "AdditionalInfo": "",
+      "DisplayText": "Unable To Pause Printer",
+      "StepsToResolve": "Verify that the printer is in a good state."
+    }
+  },
+  "MachineGroupChangingCorrugate": "Changing Corrugate",
+  "MachineGroupError": "Error",
+  "MachineGroupInitializing": "Initializing",
+  "MachineGroupOffline": "Offline",
+  "MachineGroupOnline": "Online",
+  "MachineGroupPaused": "Paused",
+  "MachineGroups": {
+    "DeleteButton": "Delete",
+    "EditButton": "Edit",
+    "Edit": {
+      "CancelButton": "Cancel",
+      "Description": "Description",
+      "EffectiveCapabilities": "Effective Capabilities",
+      "MachineGroupName": "Machine Group Name",
+      "Machines": "Machines",
+      "QueueLength": "Queue Length",
+      "SaveButton": "Save",
+      "WorkflowPath": "Workflow Path"
+    },
+    "Headers": {
+      "ConfiguredMachines": "Configured Machines",
+      "Description": "Description",
+      "Name": "Machine Group Name",
+      "QueueLength": "Queue Length",
+      "WorkflowPath": "Workflow Path"
+    },
+    "Intro": {
+      "Change": {
+        "List": "Select the desired Machine Group. This will now be your default.",
+        "Overview": "Change your Machine Group from this screen."
+      },
+      "Columns": {
+        "ConfiguredMachines": "Configured Machines in each Machine Group are listed here.",
+        "Description": "Descriptions are listed here.",
+        "MachineGroup": "Machine Groups are listed here.",
+        "Overview": "Existing Machine Groups are listed here. Select a row to select a Machine Group. Selecting the top check mark will select or de-select all Machine Groups in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+        "QueueLength": "Queue Lengths are listed here.",
+        "WorkflowPath": "Workflow Paths are listed here."
+      },
+      "Console": {
+        "AutoManual": " This sets the Machine Group to either Auto or Manual mode. In Auto mode, the Machine Group accepts jobs from the Production Group. In Manual mode, the Machine Group only accepts jobs input by the Machine Operator.",
+        "Capabilities": "This lists the capabilities of the Machine Group.",
+        "ConfiguredMachines": "This lists each configured Machine in the Machine Group, including its current status.",
+        "MachineGroup": "This shows the current Machine Group.",
+        "Overview": "Manage the production of your Machine Group from this screen.",
+        "PausePlay": "This sets the Machine Group to either Pause or Play. Pausing stops new jobs from being sent to the Machine Group. Each Machine in the group will finish producing the work in their queue, then go into Pause mode.",
+        "ProductionGroup": "This shows the current Production Group feeding work to the Machine Group, as well as the Selection Mode in use.",
+        "Status": "This shows the current Machine Group status.",
+        "User": "This shows the current logged-in User."
+      },
+      "DeleteMachineGroupButton": "Select a Machine Group from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditMachineGroupButton": "Select a Machine Group from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Group Management screen.",
+        "Description": "Enter/edit the Machine Group description.",
+        "EffectiveCapabilities": "Depending on the machines selected to be part of this Machine Group, their effective capabilities may be listed here.",
+        "Machines": "Select the Machines that will be part of this Machine Group. Click the <u>Show Unavailable Machines</u> link to see which Machines have already been assigned to another Machine Group.",
+        "Name": "Enter/edit the Machine Group name.",
+        "Overview": "Create/edit a Machine Group from this screen.",
+        "QueueLength": "Select/enter the Machine Group queue length.",
+        "SaveButton": "Select the Save button to save your changes and return to the Machine Group Management screen.",
+        "WorkflowPath": "Select the appropriate Machine Group workflow path from the drop-down menu."
+      },
+      "NewMachineGroupButton": "Select the New button to create a new Machine Group.",
+      "Overview": "Manage Machine Groups from this screen. A Machine Group usually includes Machines that are next to each other and connected together, such as a Packsize Fusion or EM machine with an attached Zebra printer and/or a barcode scanner."
+    },
+    "NewButton": "New",
+    "PleaseSelectAMachineGroup": "Please select a Machine Group:",
+    "SelectOne": "Select One",
+    "Title": "Machine Group Management",
+    "Validation": {
+      "MachineGroupNameRequired": "Machine Group Name Required",
+      "QueueLengthRequired": "Queue Length Required",
+      "WorkflowPathRequired": "Workflow Path Required"
+    }
+  },
+  "MachineInOutOfCorrugate": "Out Of Corrugate",
+  "MachineInitializing": "Initializing",
+  "MachineOffline": "Offline",
+  "MachineOnline": "Online",
+  "MachinePaused": "Paused",
+  "MachineService": "Service Mode",
+  "Machines": {
+    "Discover": {
+      "CancelButton": "Cancel",
+      "ConfiguredAs": "Configured As",
+      "DefaultGateway": "Default Gateway",
+      "IPAddress": "IP Address",
+      "MACAddress": "MAC Address",
+      "PLCModule": "PLC Module",
+      "PLCVersion": "PLC Version",
+      "RefreshButton": "Refresh",
+      "SaveButton": "Save",
+      "SearchingForMachines": "Searching for Machines...",
+      "SubnetMask": "Subnet Mask",
+      "Version": "Version"
+    },
+    "Edit": {
+      "BarcodeScannerName": "Barcode Scanner Name",
+      "CanOnlyAddAccessoriesWhenEditing": "You can only add Accessories when editing a machine.",
+      "CancelButton": "Cancel",
+      "ConveyorDirection": "Conveyor Direction",
+      "ConveyorMoveLeftLabel": "Left Feed",
+      "ConveyorMoveRightLabel": "Right Feed",
+      "ConveyorName": "Conveyor Name",
+      "ConveyorPickZone": "Feeds to PickZone",
+      "DeleteButton": "Delete",
+      "Description": "Description",
+      "DiscoverButton": "Discover",
+      "EditButton": "Edit",
+      "EmMachineName": "EM Machine Name",
+      "EnableLabel": "Enable",
+      "ExternalSystemName": "External System Name",
+      "FootPedalName": "Foot Pedal Name",
+      "FootPedalNameRequired": "Foot Pedal Name is required",
+      "FusionMachineName": "Fusion Machine Name",
+      "HideAdvancedSettings": "Hide Advanced Settings",
+      "HideUnavailableMachines": "Hide Unavailable Machines",
+      "IOModule": "Module",
+      "Input": "Input",
+      "IpOrDnsName": "IP Address",
+      "LabelSecondCheckWaitTime": "Label Second Check Wait Time (ms)",
+      "MACAddress": "MAC Address",
+      "MultiTrackButton": "Multi Track",
+      "NewButton": "New",
+      "NextPrintOn": "Next Print On",
+      "NumberOfTracks": "Number of Tracks",
+      "Output": "Output",
+      "PeelOff": "Peel Off",
+      "PhysicalMachineSettingsFile": "Physical Machine Settings file",
+      "PollInterval": "Poll Interval (ms)",
+      "Port": "Port",
+      "PrinterMode": "Printer Mode",
+      "PrinterModel": "Printer Model",
+      "PrinterName": "Printer Name",
+      "PriorityPrinter": "Priority Printer",
+      "RetryCount": "Retry Count",
+      "SaveButton": "Save",
+      "ShowAdvancedSettings": "Show Advanced Settings",
+      "ShowUnavailableMachines": "Show Unavailable Machines",
+      "SingleTrackButton": "Single Track",
+      "SubnetMask": "Subnet Mask",
+      "TearOff": "Tear Off",
+      "Workflow": "Workflow"
+    },
+    "Headers": {
+      "Description": "Description",
+      "Name": "Machine Name",
+      "ProductionStatus": "Production Status",
+      "Status": "Status",
+      "Type": "Machine Type"
+    },
+    "Intro": {
+      "Columns": {
+        "Description": "Descriptions are listed here.",
+        "MachineName": "Machine Names are listed here.",
+        "MachineType": "Types are listed here.",
+        "Overview": "Existing Machines are listed here. Select the row at the left to select a Machine. Selecting the top check mark will select or de-select all Machines in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+        "ProductionStatus": "Current Production Status is listed here.",
+        "Status": "Current Status is listed here."
+      },
+      "DeleteButton": "Select a Machine from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "Discovery": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Management screen.",
+        "Columns": {
+          "ConfiguredAs": "If a Machine is already configured in the system, its name will be listed here.",
+          "IpAddress": "IP Addresses are listed here.",
+          "MacAddress": "MAC Addresses are listed here.",
+          "Overview": "Discovered Machines are listed here. Select a row to select a Machine. Selecting the top check mark will select or de-select all Machines in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+          "PlcModel": "PLC Models are listed here.",
+          "PlcVersion": "PLC Versions are listed here.",
+          "RuntimeVersion": "Runtime Versions are listed here.",
+          "SubNetMask": "Subnet Masks are listed here."
+        },
+        "Overview": "This screen shows any discovered Machines. Select the Machine you want to add to the system, then select the Save button. This will return you to the New Machine screen, with that Machine's information entered. You can select and add only one discovered Machine at a time.",
+        "RefreshButton": "Select the Refresh button to re-scan the network for existing Machines.",
+        "SaveButton": "Select the Machine you want to add, then select the Save button to save that Machine's information to the New Machine screen."
+      },
+      "EditButton": "Select a Machine from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "Conveyor": {
+          "CancelButton": "Select the Cancel button to discard your changes and return to the corresponding machines edit page.",
+          "Description": "Enter/edit the Conveyor Description.",
+          "LeftFeedEnable": "This enables/disables the Left Feed functionality of this Conveyor.",
+          "Module": "The Module number of the Output Module from left to right on the PLC that this signal cable will be connected to.",
+          "Name": "Enter/edit the Conveyor Name.",
+          "Overview": "Use this screen to create/edit a Conveyor Accessorie.",
+          "PickZone": "Select the Pick Zone that this feed will feed the Producible too.",
+          "Port": "The Port of the selected Output Module that the signal cable will be connected to.",
+          "RightFeedEnable": "This enables/disables the Right Feed functionality of this Conveyor.",
+          "SaveButton": "Select the Save button to save your changes and return to the corresponding machines edit page."
+        },
+        "Em": {
+          "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Management screen.",
+          "Description": "Enter/edit the Description.",
+          "DiscoverButton": "Select the Discover button to query the network for existing Machines.",
+          "IpOrDnsName": "Enter/edit the IP Address. If this is a discovered Machine, other network information may appear. <u>Do not modify any network settings unless instructed to do so.</u>",
+          "Name": "Enter/edit the EM Machine Name.",
+          "NumberOfTracks": "Select/enter the Number of Tracks.",
+          "Overview": "Use this screen to create/edit an EM Machine. Enter the necessary information and save your changes, or use the Discover button to query the network for existing Machines to add to the system.",
+          "PhysicalMachineSettings": "Select the appropriate Physical Machine Settings file from the drop-down menu.",
+          "Port": "Select/enter the communication Port.",
+          "SaveButton": "Select the Save button to save your changes and return to the Machine Management screen."
+        },
+        "ExternalSystem": {
+          "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Management screen.",
+          "Description": "Enter/edit the Description.",
+          "IpOrDnsName": "Enter/edit the IP Address.",
+          "Name": "Enter/edit the External System Name. The default name in the workflow is <b>External Print Service</b>. If you want to use a different name, talk to your Packsize representative first.",
+          "Overview": "Use this screen to create/edit an External System Machine.",
+          "Port": "Select/enter the communication Port.",
+          "SaveButton": "Select the Save button to save your changes and return to the Machine Management screen.",
+          "Workflow": "Select the appropriate Workflow from the drop-down menu."
+        },
+        "Fusion": {
+          "CancelButton": "Select the Cancel button to cancel without saving your changes and return to the Machine Management screen.",
+          "Description": "Enter/edit the Description.",
+          "DiscoverButton": "Select the Discover button to query the network for existing Machines.",
+          "IpOrDnsName": "Enter/edit the IP Address. If this is a discovered Machine, other network information may appear. Do not modify any network settings unless instructed to do so.",
+          "MultipleTrack": "Select the Multi Track button for a multi-track Machine.",
+          "Name": "Enter/edit the Fusion Machine Name.",
+          "Overview": "Use this screen to create/edit a Fusion Machine. Enter the necessary information and save your changes, or use the Discover button to query the network for existing Machines to add to the system.",
+          "PhysicalMachineSettings": "Select the appropriate Physical Machine Settings file from the drop-down menu.",
+          "Port": "Select/enter the communication Port.",
+          "SaveButton": "Select the Save button to save your changes and return to the Machine Management screen.",
+          "SingleTrack": "Select the Single Track button for a single-track Machine."
+        },
+        "Scanner": {
+          "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Management screen.",
+          "Description": "Enter/edit the Description.",
+          "Name": "Enter/edit the Barcode Scanner Name.",
+          "Overview": "Use this screen to create/edit a Barcode Scanner Machine.",
+          "Port": "Select/enter the communication Port.",
+          "SaveButton": "Select the Save button to save your changes and return to the Machine Management screen."
+        },
+        "ZebraPrinter": {
+          "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Management screen.",
+          "Description": "Enter/edit the Description.",
+          "IpOrDnsName": "Enter/edit the IP Address.",
+          "LabelSecondCheck": "Select/enter the time (in milliseconds) the system should wait before checking a second time that the label has printed.",
+          "Model": "Select the appropriate Printer Model from the drop-down menu.",
+          "Name": "Enter/edit the Printer Name.",
+          "Overview": "Use this screen to create/edit a Zebra Printer Machine.",
+          "PollInterval": "Select/enter the time (in milliseconds) the system should wait between communication attempts with the printer.",
+          "Port": "Select/enter the communication Port.",
+          "PrinterMode": "Select the desired Printer Mode. <u>Peel Off</u> means the printer will advance when the label is peeled off the backing by the operator. <u>Tear Off</u> means the printer will not advance until the label AND its backing are torn off.",
+          "PriorityPrinter": "Select this checkbox if this is a priority printer.",
+          "RetryCount": "Select/enter the number of times the system should retry connecting to the printer.",
+          "SaveButton": "Select the Save button to save your changes and return to the Machine Management screen."
+        }
+      },
+      "NewButton": "Select the New button to create a new Machine.",
+      "Overview": "Manage your Machines from this screen. A Machine can be a Packsize Fusion or EM machine, a Zebra printer, a barcode scanner, or an external system."
+    },
+    "Title": "Machine Management",
+    "Validation": {
+      "ConveyorAllDirectionsNeedPickzone": "All enabled directions need a Pick Zone",
+      "ConveyorNameRequired": "Conveyor Name Required",
+      "ConveyorOneDirectionRequired": "At least one Feeding Direction is Required",
+      "ConveyorPickzonesNeedToBeDifferent": "The Pick Zones need to  be different",
+      "DefaultGatewayPattern": "Machine's Default Gateway is not in correct format",
+      "DefaultGatewayRequired": "Machine's Default Gateway is required",
+      "EmMachineNameRequired": "Em Machine Name Required",
+      "ExternalSystemNameRequired": "External System Name Required",
+      "FusionMachineNameRequired": "Fusion Machine Name Required",
+      "IOModuleRequired": "IO Module Number is Required",
+      "IOOutputRequired": "Output Number is Required",
+      "IpOrDnsNamePattern": "Machine's IP address is not in correct format",
+      "IpOrDnsNameRequired": "Machine's IP is required",
+      "MACAddressRequired": "Machine's MAC Address is required",
+      "MachineCreatedFailedAliasExists": "A Machine with that Alias already exists. Please choose another Alias.",
+      "PhysicalMachineSettingsFileRequired": "Physical Settings File Required",
+      "PortRequired": "Port Required",
+      "PrinterNameRequired": "Printer Name Required",
+      "ScannerNameRequired": "Scanner Name Required",
+      "SubnetPattern": "Machine's Subnet Mask is not in correct format",
+      "SubnetRequired": "Machine's Subnet Mask is required",
+      "TrackCountRequired": "Track Count Required",
+      "WorkflowRequired": "Workflow Required"
+    }
+  },
+  "Menu": {
+    "ABOUT": "ABOUT",
+    "Administrator": "Administrator",
+    "AdministratorPanel": "Administrator Panel",
+    "Articles": "Articles",
+    "ArticlesNew": "Articles (NEW!)",
+    "BoxFirst": "Box First",
+    "BoxLast": "Box Last",
+    "CartonCreation": "Carton Creation",
+    "CartonPropertyGroups": "Carton Property Groups",
+    "ChangeCorrugates": "Change Corrugates",
+    "ChangeMachines": "Change Machines",
+    "Classifications": "Classifications",
+    "Configuration": "Configuration",
+    "Corrugates": "Corrugates",
+    "CustomJob": "Custom Job",
+    "Dashboard": "Dashboard",
+    "Login": "Login",
+    "MachineControl": "Machine Control",
+    "MachineGroups": "Machine Groups",
+    "MachineProduction": "Machine Production",
+    "Machines": "Machines",
+    "Operations": "Operations",
+    "OperatorPanel": "Operator Panel",
+    "Orders": "Orders",
+    "PickZones": "Pick Zones",
+    "ProductionGroup": "Production Group",
+    "ProductionGroups": "Production Groups",
+    "Reports": "Reports",
+    "SUPPORT": "SUPPORT",
+    "ScanToCreate": "Scan To Create",
+    "Search": "Search",
+    "Settings": "Settings",
+    "Users": "Users"
+  },
+  "NotProducible": "Not Producible",
+  "Notifications": {
+    "DismissAll": "Dismiss All",
+    "NoNotifications": "No news is good news!"
+  },
+  "OperatorPanel": {
+    "Auto": "Auto",
+    "Capabilities": "Capabilities:",
+    "ConfiguredMachines": "Configured Machines",
+    "CurrentProductionGroup": "Current Production Group",
+    "MachineDetails": "Machine Details",
+    "MachineGroupCapabilities": "Machine Group Capabilities",
+    "MachineStatus": "Machine Status: {{machineStatus}}",
+    "Manual": "Manual",
+    "ProductionGroupNotAssigned": "Production Group not assigned",
+    "ProductionStatus": "Production Status: {{productionStatus}}",
+    "SelectionMode": "Selection Mode: {{selectionMode}}"
+  },
+  "Orders": {
+    "Closed": {
+      "Filter": "Enter a value here to filter the Closed Orders list. The list will immediately display the filtered results.",
+      "Overview": "Closed Orders (orders that have been produced) are listed here.",
+      "SortBy": "To sort the Closed Orders list, select Sort By, then select an available option. The Closed Orders list will immediately re-sort according to the option chosen."
+    },
+    "Open": {
+      "Cancel": "Select an Open Order from the list, then select the Cancel Orders button to cancel it.",
+      "CreateNext": "Select the Create Next button to produce the next order in the Open Order list.",
+      "Filter": "Enter a value here to filter the Open Orders list. The list will immediately display the filtered results.",
+      "Overview": "Open Orders (orders waiting to be produced) are listed here."
+    }
+  },
+  "OutOfLabels": "Out Of Labels",
+  "OutOfRibbon": "Out Of Ribbon",
+  "Pickzones": {
+    "DeleteButton": "Delete",
+    "EditButton": "Edit",
+    "Edit": {
+      "CancelButton": "Cancel",
+      "Description": "Description",
+      "PickZoneName": "Name",
+      "SaveButton": "Save"
+    },
+    "Headers": {
+      "Description": "Description",
+      "Name": "Name"
+    },
+    "Intro": {
+      "Columns": {
+        "Description": "Descriptions are listed here.",
+        "Name": "Pick Zone Names are listed here.",
+        "Overview": "Existing Pick Zones are listed here. Select a row to select a Pick Zone. Selecting the top check mark will select or de-select all Pick Zones in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order."
+      },
+      "DeleteButton": "Select a Pick Zone from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditButton": "Select a Pick Zone from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Pick Zone Management screen.",
+        "Description": "Enter/edit the Description.",
+        "Name": "Enter/edit the Pick Zone Name.",
+        "Overview": "Create/edit a Pick Zone from this screen.",
+        "SaveButton": "Select the Save button to save your changes and return to the Pick Zone Management screen."
+      },
+      "NewButton": "Select the New button to create a new Pick Zone.",
+      "Overview": "Manage your Pick Zones from this screen. Pick Zones are areas within a packaging flow where specific items or groups of items are located."
+    },
+    "NewButton": "New",
+    "Title": "Pick Zones",
+    "Validation": {
+      "NameRequired": "Pick Zone Name Required"
+    }
+  },
+  "PriorityLabel": "Priority Label",
+  "ProduceQueueAndPause": "Clearing Queue",
+  "ProducibleCompleted": "Complete",
+  "ProducibleFailed": "Failed",
+  "ProducibleFlaggedForReproduction": "Flagged For Reproduction",
+  "ProducibleImported": "Imported",
+  "ProducibleProductionStarted": "Started",
+  "ProducibleRemoved": "Removed",
+  "ProducibleSelected": "Selected",
+  "ProducibleSentToMachine": "Sent To Machine",
+  "ProducibleSentToMachineGroup": "Sent To Machine Group",
+  "ProducibleStaged": "Staged",
+  "ProductionGroups": {
+    "DeleteButton": "Delete",
+    "EditButton": "Edit",
+    "Edit": {
+      "AdditionalOptions": "Additional Options",
+      "CancelButton": "Cancel",
+      "Corrugates": "Corrugates",
+      "Description": "Description",
+      "HideUnavailableMachineGroups": "Hide Unavailable Machine Groups",
+      "MachineGroups": "Machine Groups",
+      "Name": "Production Group Name",
+      "ProductionMode": "Production Mode",
+      "SaveButton": "Save",
+      "ShowUnavailableMachineGroups": "Show Unavailable Machine Groups"
+    },
+    "Headers": {
+      "Corrugates": "Corrugates",
+      "Description": "Description",
+      "MachineGroups": "Machine Groups",
+      "Name": "Production Group Name",
+      "ProductionMode": "Production Mode"
+    },
+    "Intro": {
+      "Change": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Machine Production screen.",
+        "Overview": "Change the currently assigned Production Group here. The current Production Group is shown at the top of the screen.",
+        "ProductionGroups": "Select the desired Production Group, then select the Save button to save your changes. After a moment, The new Production Group will be shown at the top of the screen.",
+        "SaveButton": "Select the Save button to save your changes. In the left-hand menu, select Operations, then Machine Production to return to the Machine Production screen."
+      },
+      "Columns": {
+        "Corrugates": "Corrugates are listed here.",
+        "Description": "Descriptions are listed here.",
+        "MachineGroups": "Machine Groups within each Production Group are listed here.",
+        "Name": "Production Groups are listed here.",
+        "Overview": "Existing Production Groups are listed here. Select a row to select a Production Group. Selecting the top check mark will select or de-select all Production Groups in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+        "ProductionMode": "Production Modes are listed here."
+      },
+      "DeleteButton": "Select a Production Group from the list, then select the Delete button to delete it. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditButton": "Select a Production Group from the list, then select the Edit button to edit it.",
+      "Edit": {
+        "AdditionalOptions": "Additional Options, if applicable, will be shown here.",
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the Production Group Management screen.",
+        "Corrugates": "Select the Corrugates that will be used in this Production Group.",
+        "Description": "Enter/edit the Description.",
+        "MachineGroups": "Select the Machine Groups that will be part of this Production Group. Click the <u>Show Unavailable Machine Groups</u> link to see which Machine Groups are already assigned to another Production Group.",
+        "Name": "Enter/edit the Production Group Name.",
+        "Overview": "Create/edit a Production Group from this screen.",
+        "ProductionMode": "Select the appropriate Production Mode from the drop-down menu.",
+        "SaveButton": "Select the Save button to save your changes and return to the Production Group Management screen."
+      },
+      "NewButton": "Select the New button to create a new Production Group.",
+      "Overview": "Manage your Production Groups from this screen. Production Groups are logical groupings of Machine Groups. This allows work to be sent to multiple Machine Groups and Machines, increasing speed and efficiency and reducing waste."
+    },
+    "NewButton": "New",
+    "Options": {
+      "BoxFirst": {
+        "CartonPropertyGroupProductionRatio": "Carton Property Group Production Ratio:",
+        "SurgeCount": "Surge Count:"
+      },
+      "BoxLast": {
+        "ShowTriggerInterfaceOnOperatorPanel": "Show trigger interface on operator panel",
+        "ShowTriggerInterfaceOnOperatorPanelHelp": "When selected this will enable an input on the operator panel so that jobs can be triggered by entering the serial number."
+      },
+      "Orders": {
+        "AllowDistributedOrders": "Allow orders to be distributed across multiple machine groups",
+        "AllowDistributedOrdersHelp": "When enabled, operators can decide to distribute all cartons in an order across all available machine groups in a production group",
+        "DistributeOrdersByDefault": "Orders default to distributed mode",
+        "DistributeOrdersByDefaultHelp": "When checked all orders in this production group will be set to 'distributed' when created",
+        "PauseMachineBetweenOrders": "Pause machine between orders",
+        "PauseMachineBetweenOrdersHelp": "When an order is completed the machine will be put into a paused state prior to starting the next order"
+      },
+      "ScanToCreate": {
+        "BarcodeParsingWorkflow": "Barcode Parsing Workflow:",
+        "BarcodeParsingWorkflowRequired": "The Barcode Parsing Workflow is required",
+        "ShowTriggerInterfaceOnOperatorPanel": "Show trigger interface on operator panel",
+        "ShowTriggerInterfaceOnOperatorPanelHelp": "When selected this will enable an input on the operator panel so that jobs can be triggered by entering the serial number."
+      }
+    },
+    "Title": "Production Group Management",
+    "Validation": {
+      "NameRequired": "Production Group Name Required",
+      "ProductionModeRequired": "Production Mode Required"
+    }
+  },
+  "ProductionIdle": "Idle",
+  "ScanToCreate": "Scan To Create",
+  "ScanToCreate": {
+    "BarcodeData": "Enter/scan the barcode data. Acceptable formats are: '&lt;Design ID&gt;:&lt;Length&gt;:&lt;Width&gt;:&lt;Height&gt;' or '&lt;Design ID&gt;:&lt;Length&gt;:&lt;Width&gt;:&lt;Height&gt;:&lt;Quantity&gt;'.",
+    "TriggerData": " Select the Trigger Data button to produce the job using the barcode data."
+  },
+  "Search": {
+    "BoxFirst": {
+      "CartonPropertyGroup": "Select a specific Carton Property Group from the drop-down menu as part of your search criteria or leave it as the default (All).",
+      "Classification": "Select a specific Classification from the drop-down menu as part of your search criteria or leave it as the default (All).",
+      "PickZone": "Select a specific Pick Zone from the drop-down menu as part of your search criteria or leave it as the default (All)."
+    },
+    "BoxLast": {
+      "Barcode": "Enter a Barcode as part of your search criteria.",
+      "Columns": {
+        "Barcode": "Barcodes are listed here.",
+        "Corrugate": "Optimal Corrugate for this Order.",
+        "Design": "Designs are listed here.",
+        "Dimensions": "Dimensions are listed here.",
+        "Machine": "Machines are listed here.",
+        "Quantities": "Remaining/original quantities are listed here."
+      }
+    },
+    "Intro": {
+      "Common": {
+        "AdditionalOptions": "Select the <u>Show/Hide Additional Search Options</u> link to show/hide additional search parameters.",
+        "Article": "Select a specific Article ID from the drop-down menu as part of your search criteria or leave it as the default (All).",
+        "CartonHeight": "If desired, enter a carton Height as part of your search criteria.",
+        "CartonLength": "If desired, enter a carton Length as part of your search criteria.",
+        "CartonWidth": "If desired, enter a carton Width as part of your search criteria.",
+        "Columns": {
+          "CreatedDate": "Created dates are listed here.",
+          "CustomerUniqueId": "Customer IDs are listed here.",
+          "ExpandableRow": "If an item is part of a kit, select this row to see which types of producible items are included.",
+          "Overview": "Search results are listed in the grid. Select a row to select an item. Selecting the top check mark will select or de-select all items in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+          "ProducedOn": "Machine Groups that produced job listed here.",
+          "ProducibleInfo": "Information about the producible listed here.",
+          "ProductionGroup": "Production Groups are listed here.",
+          "Status": "Current Status is listed here.",
+          "Trigger": "The timestamp (date and time when an item was triggered) is listed here.",
+          "Type": "Producible Types are listed here."
+        },
+        "Corrugate": "Select a specific corrugate Name from the drop-down menu as part of your search criteria or leave it as the default (All).",
+        "CorrugateQuality": "Select/enter a specific corrugate Quality from the drop-down menu as part of your search criteria or leave it as the default (0).",
+        "CustomerId": "If desired, enter a Customer ID as part of your search criteria.",
+        "DateBegin": "Enter a beginning date for your search. This defines the earliest created date/time to be shown in your search results.",
+        "DateEnd": "Enter an ending date for your search. This defines the last created date/time to be shown in your search results.",
+        "Design": "Select a specific Design from the drop-down menu as part of your search criteria or leave it as the default (All).",
+        "Machine": "Select a specific Produced By Machine from the drop-down menu as part of your search criteria or leave it as the default (All).",
+        "MachineGroup": "Select a specific Machine Group from the drop-down menu as part of your search criteria or leave it as the default (All).",
+        "Overview": "Use this screen to search for a particular job. After defining the search criteria, select the Search button. Search results will be displayed in the grid.",
+        "Reproduce": "Select an item from the Search Results list, then select the Reproduce button to produce it again.",
+        "Results": "Search results are listed here.",
+        "ResultsFilter": "Select this button to enable/disable the result filtering of the list.",
+        "Search": "After entering the desired criteria in the search fields, select the Search button to search the database. Your search results will appear in the grid.",
+        "Status": "Select a specific Status from the drop-down menu as part of your search criteria or leave it as the default (All)."
+      }
+    },
+    "Orders": {
+      "Intro": {
+        "Columns": {
+          "Corrugate": "Optimal Corrugate for this Order.",
+          "ProduceOnTarget": "Specifies the production group or machine group that will produce this Order.",
+          "ProducedOn": "Machine Group that last produced this Order.",
+          "Quantities": "Remaining/original quantities are listed here.",
+          "Reproduce": "Reproduced items are listed here."
+        }
+      }
+    },
+    "ScanToCreate": {
+      "Intro": {
+        "Barcode": "If desired, enter a Barcode as part of your search criteria.",
+        "Columns": {
+          "ArticleId": "Article IDs are listed here.",
+          "Barcode": "Barcode used to create this producible is listed here.",
+          "Corrugate": "Optimal Corrugate for this Order.",
+          "Design": "Designs are listed here.",
+          "Dimensions": "Dimensions are listed here.",
+          "MachineGroup": "Machine Groups are listed here."
+        }
+      }
+    }
+  },
+  "Settings": {
+    "Edit": {
+      "AccessToFile": "Access to File",
+      "AccessToMonitoredFolder": "Access to Monitored Folder",
+      "CallbackIpOrDnsName": "Callback IP Address",
+      "CallbackPort": "Callback Port",
+      "CancelButton": "Cancel",
+      "CommentIndicator": "Comment Indicator",
+      "DefaultImportType": "Default Import Type",
+      "DeleteImportedFiles": "Delete Imported Files",
+      "FieldDelimiter": "Field Delimiter",
+      "FileExtension": "File Extension",
+      "FileImportTab": "File Import",
+      "GeneralTab": "General",
+      "HeaderFields": "Header Fields",
+      "Interval": "Interval(s)",
+      "LoginExpirationTime": "Login Expiration Time(s)",
+      "MonitoredFolderName": "Monitored Folder Name",
+      "SaveButton": "Save",
+      "TimesToRetry": "Times to Retry",
+      "TrackEverything": "TrackEverything - Logs fill up fast and you will see a performance hit.",
+      "TrackInstances": "TrackInstances - Tracks only the entry and exit of a workflow. Not helpful for debugging.",
+      "TrackWithoutArguments": "TrackWithoutArguments (Default) - Gets all tracking records without arguments and variables.",
+      "Unassigned": "Unassigned",
+      "WorkflowTrackingLevel": "Workflow Tracking Level"
+    },
+    "Intro": {
+      "FileImportTab": {
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u>. Because you are on the server settings screen, cancelling will take you back to the Admin Dashboard screen.",
+        "CommentIndicator": "Enter/edit the default comment indicator used by the system with imported files. The default is a tilde (~).",
+        "DefaultImportType": "Select the default type of imported files from the drop-down menu.",
+        "DeleteImportedFiles": "Select this checkbox to delete imported files after they are processed by the system.",
+        "FieldDelimiter": "Enter/edit the default field delimiter used by the system with imported files. The default is a semi-colon (;).",
+        "FileExtension": "Enter/edit the file extension the system will monitor for imported files. The default is csv.",
+        "HeaderFields": "If desired, you can add a header field to imported files. This is optional. The default is blank.",
+        "MonitoredFolderPath": "Enter/edit the folder name the system will monitor for file imports. The default is DropFolder.",
+        "Overview": "Manage your File Import server settings from this screen.",
+        "SaveButton": "Select the Save button to save your changes. Because you are changing server settings, the system will automatically log you out after your changes are saved. When you log back in, your new server settings will be applied.",
+        "SecondsToRetryLockedFile": "Select/enter the amount of time (in seconds) the system should wait between attempts to open the locked file.",
+        "SecondsToRetryToAccessMonitoredFilePath": "Select/enter the amount of time (in seconds) the system should wait between attempts to access the monitored folder.",
+        "TimesToRetryAccessFilePath": "Select/enter the number of times the system should attempt to access the monitored folder if an attempt fails.",
+        "TimesToRetryLockedFile": "Select/enter the number of times the system should attempt to access the imported file if the file is locked and can't be opened."
+      },
+      "GeneralTab": {
+        "CallbackIpOrDnsName": "Enter/edit the Callback IP address here.",
+        "CallbackPort": "Select/enter the Callback port here.",
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u>. Because you are on the server settings screen, cancelling will take you back to the Admin Dashboard screen.",
+        "FileImportTab": "Select the File Import tab to set/verify file import server settings.",
+        "GeneralTab": "Select the General tab to set/verify general server settings.",
+        "LoginExpireTime": "Select/enter the time (in seconds) before a login expires here.",
+        "Overview": "Manage your General and File Import server settings from the two tabs on this screen.",
+        "SaveButton": "Select the Save button to save your changes. Because you are changing server settings, the system will automatically log you out after your changes are saved. When you log back in, your new server settings will be applied.",
+        "WorkflowTrackingLevel": "Select the desired Workflow Tracking Level from the drop-down menu."
+      }
+    },
+    "Title": "Server Settings",
+    "Validation": {
+      "CallbackIpOrDnsNameRequired": "Callback IP Address Required",
+      "CommentIndicatorRequired": "Comment Indicator Required",
+      "FieldDelimiterRequired": "Field Delimiter Required",
+      "FileExtensionRequired": "File Extension Required",
+      "ImportTypeRequired": "Default Import Type Required",
+      "MonitoredFolderNameRequired": "Monitored Folder Name Required"
+    }
+  },
+  "StandardLabel": "Standard Label",
+  "Terms": {
+    "About": {
+      "BrowserThumbprint": "Browser Thumbprint:",
+      "EULAButton": "EULA",
+      "EULALocation": "Docs/EULA.txt",
+      "LogMessages": "Log Messages:",
+      "ReleaseNotesButton": "Release Notes",
+      "ReleaseNotesLocation": "Docs/ReleaseNotes.txt",
+      "SupportInfoButton": "Support Info",
+      "Title": "About PackNet.Server - Version:",
+      "UserAgent": "User Agent:"
+    },
+    "Common": {
+      "Browse": "Browse file",
+      "Cancel": "Cancel",
+      "Close": "Close",
+      "Discard": "Discard",
+      "Import": "Import",
+      "No": "No",
+      "Ok": "OK",
+      "Open": "Open",
+      "Preview": "Preview",
+      "Save": "Save",
+      "UseHeaders": "Use headers:",
+      "Yes": "Yes"
+    },
+    "Connecting": {
+      "ConnectingToPackNetServer": "Connecting to PackNet.Server...",
+      "PleaseWait": "Please wait while a connection to the '{{currentlyConnectingTo}}' service is established",
+      "Reconnect": "Reconnect"
+    },
+    "Login": {
+      "LoginButton": "Login",
+      "Password": "Password:",
+      "Title": "Login",
+      "Username": "Username:"
+    },
+    "Support": {
+      "EuropeanUnionHeading": "European Union",
+      "NorthAmericaHeading": "North America",
+      "SpareParts": "Spare Parts:",
+      "Support": "Support:",
+      "SupportText": "For support or spare parts, contact us using the information below.",
+      "Title": "Technical Support"
+    }
+  },
+  "TiledCarton": "Tiled Carton",
+  "UnexpectedLabelInPrinterQueue": "Unexpected Label In Printer Queue",
+  "UnexpectedLabelOnPrinter": "Unexpected Label On Printer",
+  "UserPreferences": {
+    "Language": "Language:",
+    "LogLevel": "Log level:",
+    "LogLevels": {
+      "Debug": "Debug",
+      "Error": "Error",
+      "Info": "Info",
+      "Off": "Off",
+      "Warning": "Warning"
+    },
+    "LogMessagesToKeep": "Number of log messages to keep:",
+    "Title": "Preferences"
+  },
+  "UserSettings": {
+    "Logout": "Logout",
+    "Preferences": "Preferences",
+    "Settings": "Settings"
+  },
+  "Users": {
+    "Delete": "Delete",
+    "EditButton": "Edit",
+    "Edit": {
+      "Administrator": "Administrator",
+      "AutoLogin": "Auto Login",
+      "CancelButton": "Cancel",
+      "Password": "Password:",
+      "RetypePassword": "Retype Password:",
+      "SaveButton": "Save",
+      "Username": "Username:"
+    },
+    "Headers": {
+      "Name": "Username",
+      "Type": "Type"
+    },
+    "Intro": {
+      "Columns": {
+        "Overview": "Existing Users are listed here. Select a row to select a User. Selecting the top check mark will select or de-select all Users in the list. Selecting a column heading will reorder the list according to that column. Selecting the heading again will reverse the previous order.",
+        "Type": "User Types are listed here.",
+        "User": "Usernames are listed here."
+      },
+      "DeleteButton": "Select a User from the list, then select the Delete button to delete them. <u>Warning! Your selection will be immediately deleted!</u>",
+      "EditButton": "Select a User from the list, then select the Edit button to edit them.",
+      "Edit": {
+        "Administrator": "Select this checkbox to designate a User as an Administrator. This allows the User to change settings, add/remove other Users, and perform other administrative functions. For security reasons, a User can either be set as an administrator or to log in automatically, but not both.",
+        "AutoLoginUser": "Select this checkbox to designate a User as an Auto Login User. This means they will be automatically logged in when the system boots. This setting is useful when the same user works on the same machine each day. For security reasons, a User can either log in automatically or be set as an administrator, but not both.",
+        "CancelButton": "Select the Cancel button to cancel <u>without saving your changes</u> and return to the User Management screen.",
+        "Overview": "Create/edit a User from this screen.",
+        "Password": "Enter/edit the Password.",
+        "PasswordSecondCheck": "For verification purposes, enter/edit the Password again.",
+        "SaveButton": "Select the Save button to save your changes and return to the User Management screen.",
+        "Username": "Enter the Username. If you are editing an existing User, the Username cannot be changed."
+      },
+      "NewButton": "Select the New button to create a new User.",
+      "Overview": "Manage your Users from this screen."
+    },
+    "New": "New",
+    "Title": "User Management",
+    "Validation": {
+      "PasswordRequired": "Password required",
+      "RetypePassword": "Retype Password",
+      "UsernameRequired": "Username required"
+    }
+  },
+  "WaitingForPeelOff": "Waiting For Peel Off",
+  "ZebraPrinter": "Zebra Printer",
+  "_language": "English"
+}

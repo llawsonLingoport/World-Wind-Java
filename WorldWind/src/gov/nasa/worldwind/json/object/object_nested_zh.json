@@ -1,0 +1,10 @@
+{
+"_lrmcomment":"DemoJson_1_4 - FULL-FILE",
+"the_cat": "FR_FR The Cat",
+"NEST": {
+"SPLIT": "FR_FR Split",
+"INTERSECT": "FR_FR Intersect",
+"ANOTHER_NEST": {
+"SPLIT": "FR_FR Split"
+}}
+}
