@@ -1,10 +1,11 @@
 {
-"_lrmcomment":"DemoJson_1_3 - FULL-FILE",
-"the_cat": "FR_CA The Cat",
-"NEST": {
-"SPLIT": "FR_CA Split",
-"INTERSECT": "FR_CA Intersect",
-"ANOTHER_NEST": {
-"SPLIT": "FR_CA Split"
-}}
+  "_lrmcomment": "LLWWJ_3_20 - CHANGES-ONLY",
+  "NEST": {
+    "ANOTHER_NEST": {
+      "SPLIT": "スプリット編集"
+    },
+    "INTERSECT": "FR_CA Intersect",
+    "SPLIT": "FR_CA Split"
+  },
+  "the_cat": "FR_CA The Cat"
 }

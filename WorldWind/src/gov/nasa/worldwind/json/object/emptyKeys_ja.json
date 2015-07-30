@@ -1,15 +1,12 @@
 {
-        "BoxFirst": {
-            "CartonPropertyGroup": "Select a specific Carton Property Group",
-            "Classification": "Select a specific Classification",
-            "PickZone": "Select a specific Pick Zone from the drop-down",
-            "Columns": {
-            }
-        },
-		"BoxLast": {
-			"PickZone": "Select a specific Pick Zone from the drop-down",
-            "Columns": {
-            },
-            "Barcode": "Enter a Barcode as part of your search criteria."
-		}
+  "_lrmcomment": "LLWWJ_3_20 - CHANGES-ONLY",
+  "BoxFirst": {
+    "CartonPropertyGroup": "Select a specific Carton Property Group",
+    "Classification": "[編集] 特定の分類",
+    "PickZone": "Select a specific Pick Zone from the drop-down"
+  },
+  "BoxLast": {
+    "Barcode": "Enter a Barcode as part of your search criteria.",
+    "PickZone": "Select a specific Pick Zone from the drop-down"
+  }
 }
